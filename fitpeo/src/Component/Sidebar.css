@@ -1,0 +1,51 @@
+/* Sidebar.css */
+
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: rgb(5, 11, 64);
+    color: white;
+    padding: 16px;
+  }
+  
+  .menu h1 {
+    margin-bottom: 16px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .menu-item span {
+    margin-left: 8px;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-top: 1px solid white;
+    margin-top: auto;
+  }
+  
+  .down-icon {
+    margin-left: auto;
+  }
+  
+  .card {
+    padding: 16px;
+    background-color: rgb(245, 246, 248);
+  }
+  
+  .top-div {
+    margin-bottom: 16px;
+  }
+  
+  /* Add your other CSS styles as needed */
+  
